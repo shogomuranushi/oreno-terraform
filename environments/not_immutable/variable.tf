@@ -1,4 +1,5 @@
 variable "common" {
+    type = "map"
     default = {
         default.region     = "us-west-2"
         default.project    = "oreno-project"
